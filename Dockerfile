@@ -11,6 +11,7 @@ RUN apt-get update && apt-get install -y \
     mecab-naist-jdic \
     libmecab-dev \
 	gfortran \
+    libav-tools \
     python3-setuptools
 
 RUN apt-get clean && \
