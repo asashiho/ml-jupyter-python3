@@ -52,7 +52,7 @@ RUN echo "c.NotebookApp.ip = '*'" >>${CONFIG} && \
     echo "c.NotebookApp.open_browser = False" >>${CONFIG} && \
     echo "c.NotebookApp.iopub_data_rate_limit=10000000000" >>${CONFIG} && \
     echo "c.MultiKernelManager.default_kernel_name = 'python3'" >>${CONFIG} && \
-    echo "c.InteractiveShellApp.matplotlib = 'inline'" ${CONFIG} 
+    echo "c.InteractiveShellApp.matplotlib = 'inline'" >>${CONFIG} 
 
 # Copy sample notebooks.
 COPY notebooks /notebooks
