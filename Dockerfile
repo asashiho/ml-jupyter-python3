@@ -34,6 +34,7 @@ RUN pip --no-cache-dir install \
         numpy \
         pandas \
         plotly \
+        sympy \
         mecab-python3 \
         librosa \
         Pillow \
