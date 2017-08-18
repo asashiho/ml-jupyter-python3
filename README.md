@@ -53,6 +53,7 @@ Windows:
 >- numpy
 >- pandas
 >- plotly
+>- sympy
 >- mecab-python3
 >- librosa
 >- Pillow
