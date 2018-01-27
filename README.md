@@ -32,7 +32,7 @@ Windows:
 ### 2.2 run a new Docker container
 Linux/MacOS:
 
-    $ docker run -p 8888:8888 -v /data:/notebooks -it--rm asashiho/ml-jupyter-python3
+    $ docker run -p 8888:8888 -v /data:/notebooks -it --rm asashiho/ml-jupyter-python3
 
 Windows:
 
@@ -42,7 +42,7 @@ Windows:
 
 >This container setup:
 >- Python 3.6
->- TensorFlow 1.2.1
+>- TensorFlow 1.5.0
 >- scikit-learn 
 >- keras
 >- sklearn
