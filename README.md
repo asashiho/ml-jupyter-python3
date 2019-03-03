@@ -1,4 +1,4 @@
-# TensorFlow and scikit-learn with Python3.6 via Docker
+# TensorFlow and scikit-learn with Python3.7 via Docker
 
 This contains `Dockerfile`s to make it easy to get up and running with
 TensorFlow and scikit-learn via [Docker](http://www.docker.com/).
@@ -32,17 +32,17 @@ Windows:
 ### 2.2 run a new Docker container
 Linux/MacOS:
 
-    $ docker run -p 8888:8888 -v /data:/notebooks -it --rm asashiho/ml-jupyter-python3
+    $ docker run -p 8888:8888 -p 6006:6006 -v /data:/notebooks -it --rm asashiho/ml-jupyter-python3
 
 Windows:
 
-    $ docker run -p 8888:8888 -v /c/data:/notebooks -it --rm asashiho/ml-jupyter-python3
+    $ docker run -p 8888:8888 -p 6006:6006 -v /c/data:/notebooks -it --rm asashiho/ml-jupyter-python3
 
 
 
 >This container setup:
->- Python 3.6
->- TensorFlow 1.5.0
+>- Python 3.7
+>- TensorFlow 1.13.1
 >- scikit-learn 
 >- keras
 >- sklearn
