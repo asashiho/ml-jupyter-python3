@@ -43,7 +43,6 @@ RUN pip --no-cache-dir install \
         Pillow \
         h5py \
         google-api-python-client \
-        tf-nightly-2.0-preview \
         tornado==5.1.1 \
         && \
     python -m ipykernel.kernelspec
